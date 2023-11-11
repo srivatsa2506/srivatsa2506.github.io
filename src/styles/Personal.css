@@ -1,0 +1,53 @@
+.personal{
+    max-width: 350px;
+    max-height: 600px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border: 1px greenyellow solid;
+}
+.title{
+    background-color: greenyellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 13px;
+}
+.content{
+    font-size: 16px;
+    margin-top: 2px;
+    color: white;
+
+}
+@media only screen and (max-width: 600px) {
+    .personal{
+        max-width: 350px;
+        justify-content:center;
+        margin-left: 10px;
+        align-items: center;
+        border: 3px greenyellow solid;
+        
+    }
+    .heading{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .content{
+        font-size: 16px;
+        margin-top: 2px;
+        color: white;
+    
+    }
+    
+}

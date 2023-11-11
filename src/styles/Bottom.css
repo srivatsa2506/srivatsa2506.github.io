@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: greenyellow;
+    background-color: black;
+}
+
+.icon{
+    color: greenyellow;
+}

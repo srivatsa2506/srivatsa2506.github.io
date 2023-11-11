@@ -1,0 +1,14 @@
+.body{
+    display: inline-flex;
+    flex: 1;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    } 
+}

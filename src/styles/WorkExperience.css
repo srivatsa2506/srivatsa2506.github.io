@@ -1,0 +1,28 @@
+.workexp{
+    margin-top: 32px;
+    border: 1px greenyellow solid;
+}
+.heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+   
+}
+.content{
+    font-size: 16px;
+    color: white;
+
+}
+.date{
+    font-size:16px;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .workexp{
+        margin-top: 10px;
+        border: 3px greenyellow solid;;
+    }
+   
+}

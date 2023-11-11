@@ -1,0 +1,30 @@
+.projs{
+    margin-top: 20px;
+    max-width: 633px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px greenyellow solid;
+    text-align: justify;
+}
+.heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+  
+}
+.content{
+    font-size: 16px;
+    color: white;
+
+}
+@media only screen and (max-width: 600px) {
+    .projs{
+        margin-top: -40px;
+        border: 3px greenyellow solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+   
+}
